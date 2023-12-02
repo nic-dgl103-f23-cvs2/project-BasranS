@@ -23,7 +23,7 @@ html {
 /* == HEADER == */
 
   header {
-   background-color: rgb(74, 120, 96);
+   background-color: rgb(28, 140, 180);
    overflow: auto;
   }
  
@@ -70,7 +70,7 @@ html {
  }
 
 .logo img{
-  width: 80px;
+  width: 90px;
 }
 .search{
   display: none;
@@ -109,6 +109,10 @@ html {
     color: white;
     }
 
+ .image img{
+    width: 350px;
+
+ }
  .call {
   
     background-color: rgb(99, 8, 8);
@@ -130,12 +134,12 @@ html {
 }
 
 .about-content1{
- background-color: rgb(20, 104, 134); 
+ background-color: rgb(43, 139, 174);
   color: white;
   text-align: center;
   height: 300px;
   padding: 10px;
-  margin-top: 15px;
+  margin-top: 10px;
  }
 
  .about-content1 h1{
@@ -157,10 +161,11 @@ background-color: rgb(237, 238, 238);
   text-align: center;
   font-size: 14px;
   padding-top: 5px;
+  border-radius: 2px;
 }
 
 .about-box2{
-  
+  border-radius: 2px;
   background-color:rgb(237, 238, 238);
   text-align: center;
   font-size: 14px;
@@ -171,7 +176,7 @@ background-color: rgb(237, 238, 238);
 }
 
 .boxes{
-  background-color: rgb(15, 97, 127);
+  background-color: rgb(43, 139, 174);
   padding: 30px;
 }
 
@@ -341,6 +346,11 @@ font-size: 18px;
 
 .call-img{
   margin: 0;
+  
+}
+
+.call-img img{
+  width:370px;
 }
 .call-to-action{
    position: relative; 
@@ -401,13 +411,15 @@ color: white;
 filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
 }
 
-
+.desk-call{
+  display: none;
+  }
 /* == FOOTER == */ 
 
 .footer{
  display: flex;
  flex-direction: column;
- background-color: rgb(19, 92, 156);
+ background-color: rgb(30, 98, 122);
  color: white;
  text-align: center;
 }
@@ -430,17 +442,20 @@ text-decoration: none;
 font-size: 20px;
 }
 
-.anchor{
-  background-color:rgb(133, 156, 180) ;
-  color: rgb(68, 18, 116);
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 10px;
+.anchor a{
+  background-color:rgb(219, 227, 236);
+  color: black;
+  padding: 15px;
+  border-radius: 17px;
+  font-size: 16px;
+  font-weight: 500;
+  
+
 }
 
 .navbars{
  text-align: center;
-
+ padding-top: 30px;
 }
 
 .footer-nav{
@@ -529,7 +544,8 @@ font-size: 20px;
     padding: 40px;
     margin-left:20px;
    flex-direction: column;
-   text-align:center ;
+   text-align: center;
+   margin-top: 70px;
     
    }
    
@@ -538,8 +554,7 @@ font-size: 20px;
     border: solid 1px white;
     border-radius:10px;
     font-size: 20px;
-   
-    height:520px;
+    height:400px;
     width:500px;
     text-align: center;
     padding-top:20px;
@@ -549,11 +564,10 @@ font-size: 20px;
     text-decoration: none;
     background-color: rgb(126, 30, 30);
     color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
-    
-    
-   }
+ 
+    }
    .desk-content h2{
     color: rgb(26, 94, 26);
     font-weight: 800;
@@ -562,7 +576,7 @@ font-size: 20px;
    
    /* == ABOUT US == */ 
 
-   .about-content{
+  .about-content{
    display: none;
 
    }
@@ -572,31 +586,143 @@ font-size: 20px;
     flex-direction: column;
     
    }
-  .desk-about1{
+  
+   .desk-about1{
     text-align: center;
     font-size: 15px;
-    background-color: rgb(16, 76, 128);
+    background-color: rgb(20, 104, 134, 0.4);
     color: white;
-    padding: 60px;
-    margin-top: 20px;
+    padding: 80px;
+    margin-top: 15px;
   }
+  
   .desk-about2{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    
   }
+
+  .desk-about1 a{
+    text-decoration: none;
+    background-color: rgb(56, 163, 202);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+
+  .boxes1{
+   display:grid;
+  grid-template-columns: auto auto;
+  grid-gap:2%;
+
+
+  }
+  .about-box3, .about-box4{
+    margin: 5% 5% 10% 10%;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
   
     /* == HOW-IT-WORKS== */ 
 
+    .works-content h1{
+   font-size: 40px;
+   font-weight: 550;
+    }
 
-     /* == SERVICE == */ 
+    .works-content{
+      font-size:18px;
+    }
+    
+    .para{
+      font-size: 25px;
+      color: rgb(106, 33, 33);
+      font-weight: 900;
+    }
+    
+    .steps{
+     margin-top:20px ;
+    }
+    .step1 h1{
+      font-size: 35px;
+    }
+    .step1 img, .step2 img, .step3 img{
+      width: 400px;
+    }
+    
+    .step1 h2, .step2 h2, .step3 h2{
+     font-size: 25px;
+    }
+    .step1 p, .step2 p, .step3 p{
+      font-size: 17px;
+      padding: 10px;
+    }
+
+    .tickmark{
+      font-size:17px;
+    }
+     
+    .video{
+      margin-top: 40px;
+    }
+    
+    
+    /* == SERVICE == */ 
+     .wrapper-width h1{
+      font-size: 33px;
+      
+     }
+    .service1{
+      font-size: 16px;
+    }
+   
+    .service{
+      background-color:rgb(201, 227, 237) ; 
+    }
+    .desk-service{
+       
+        display:grid;
+       grid-template-columns: auto auto;
+       grid-gap:2%;
+     
+     
+       
+    }
 
      /* ==CALL-TO-ACTION== */ 
+    .call-img img{
+     display: none;
+     
+    }
+    
+    .call-content {
+      display: none;
+    }
+
+    .desk-call{
+      display: flex;
+    }
+
+   
       /* == FOOTER == */ 
 
+.footer-content{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap:2%;
+}
+
+.navbars{
+ 
+}
 
   }
 
   
 
 
-  

@@ -6,13 +6,11 @@
     <title>Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    
-    <!-- DGL 103 CVS2 - Sandhya Basran -Project-->
+     <!-- DGL 103 CVS2 - Sandhya Basran -Project-->
 </head>
   
 <body>
@@ -20,39 +18,32 @@
 <!-- Header section-->
     
 <header>
-
-  <header>
-    <div class="wrapper-width">
-     <a href="#" class="logo">
-          <img src="images/logo.png" alt="logo">
-        </a>
-         <nav>
+<div class="wrapper-width">
+ <a href="#" class="logo">
+      <img src="images/logo.png" alt="logo">
+    </a>
+     <nav>
+     
+      <div class="search">
         <input type="text" placeholder="Search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        
-    <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
-          <ul id="nav-items">
-            <li>
-              <a href="#">HOME</a>
-            </li>
-            <li>
-              <a href="#">ABOUT US</a>
-            </li>
-            <li> 
-              <a href="#">SERVICE</a>
-            </li>
-          </ul>
-         </nav>
-        </div>
-    </header>
-    
-    <script>
-      function showNav() {
-        var element = document.getElementById("nav-items");
-        element.classList.toggle("show-items");
-      }
-    </script>
-
+        <button type="submit"><i class="fa fa-search"></i></button>
+          </div>
+<a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      <ul id="nav-items">
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT US</a>
+        </li>
+        <li> 
+          <a href="service.html">SERVICE</a>
+        </li>
+      </ul>
+      
+     </nav>
+   
+    </div>
 </header>
 
 <script>
@@ -61,6 +52,10 @@
     element.classList.toggle("show-items");
   }
 </script>
+
+
+
+
 
 <main>
     <!-- Service Offered section-->
@@ -145,49 +140,65 @@
 
 </main>
 
-<footer >
-    <h2>Help is around the corner</h2>
-    
-    
-  <a href="#">1-250-338-4255</a><br/>
+
+    <!-- Footer section-->
+
+    <footer >
+      <div class="wrapper-width">
+        <div class="footer">
+      <div class="footer-content">
+        <h2>Help is around the corner</h2>
+    <a href="#">1 (250) 338 4255</a><br/>
   <a href="#">www.comoxvalleylifeline.com</a><br/><br/>
    
   Administration Office Hours:<br/>
   Monday to Friday, 9:00 AM to 5:00 PM , Closed on Holidays<br/><br/>
-   
-    <a href="#"> Partner with us</a><br/>
+  <div class="anchor">
+      <a href="#"> Partner with us</a><br/>
+        </div>
+      
+     
+      <div class="navbars">
+     
+    <h3 class="footer-nav">Product</h3>
+    <ul>
+    <li class="li">On the Go</li>
+    <li class="li">At-Home Cellular</li>
+    <li class="li">At-Home Landline</li>
+    </ul>
+    <h3 class="footer-nav">About</h3>
+    <ul>
+    <li class="li">Our Organization</li>
+    <li class="li">Our Team</li>
+    <li class="li">Donation</li>
+    </ul>
+    <h3 class="footer-nav"> Quick Links</h3>
+    <ul>
+    <li class="li">About Us</li>
+    <li class="li">Service</li>
+    <li class="li">Contact Us</li>
+    </ul>
+  </div>
 
-    <h3>Product</h3>
-    <ul>
-    <li>On the Go</li>
-    <li>At-Home Cellular</li>
-    <li>At-Home Landline</li>
-    </ul>
-    <h3>About</h3>
-    <ul>
-    <li>Our Organization</li>
-    <li>Our Team</li>
-    <li>Donation</li>
-    </ul>
-    <h3> Quick Links</h3>
-    <ul>
-    <li>About Us</li>
-    <li>Service</li>
-    <li>Contact Us</li>
-    </ul>
-
-    <img src="images/logo.png" alt="logo" width="10%"><br/>
-     Comox Valley Lifeline Society
+  <div class="footer-content2">
+    <h4><b>Comox Valley LifeLine</b></h4><br/>
+    
       392 - 10th Street
       Courtenay, BC V9N 1P5
       <p> ©2023 ComoxvalleyLifeline | All right reserved</p><br/>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-youtube"></a>
-      <a href="#" class="fa fa-instagram"></a>
-      <a href="#" class="fa fa-twitter"></a><br/><br/>
-      
+  </div>
+
+  <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a><br/><br/>
+  </div>  
       <h3>Disclaimers</h3>
         <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner</p>
+  </div>
+</div>
+</div> 
 </footer>
 </body>
 </html>
