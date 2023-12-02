@@ -6,6 +6,11 @@
     <title>Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
     <!-- DGL 103 CVS2 - Sandhya Basran -Project-->
 </head>
@@ -16,19 +21,37 @@
     
 <header>
 
-    <img src="images/logo.png" alt="logo" width="10%">
-    <nav>
-      <a href="#" class="Menu">MENU</a>
-      <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">SERVICE</a></li>
-       <li><a href="#" class="Menu">MENU</a></li>
-       <input type="text" placeholder="Search">
-       <a href="#"><i class="fa fa-search"></i></a>
-      </ul>
-     </nav>
+  <header>
+    <div class="wrapper-width">
+     <a href="#" class="logo">
+          <img src="images/logo.png" alt="logo">
+        </a>
+         <nav>
+        <input type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        
+    <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          <ul id="nav-items">
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#">ABOUT US</a>
+            </li>
+            <li> 
+              <a href="#">SERVICE</a>
+            </li>
+          </ul>
+         </nav>
+        </div>
+    </header>
+    
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
 
 </header>
 
@@ -108,9 +131,7 @@
        <a href="#">Call:1-866-205-6160 to order Today
        </a>
        
-      
-
-    </section>
+      </section>
     
     <!-- Call-to-action section-->
     <section class="call-to-action">
