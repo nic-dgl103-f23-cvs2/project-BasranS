@@ -23,7 +23,7 @@ html {
 /* == HEADER == */
 
   header {
-   background-color: rgb(28, 140, 180);
+   background-color: rgb(40, 130, 144);
    overflow: auto;
   }
  
@@ -411,15 +411,16 @@ color: white;
 filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
 }
 
-.desk-call{
+.call-img1{
   display: none;
-  }
+}
+
 /* == FOOTER == */ 
 
 .footer{
  display: flex;
  flex-direction: column;
- background-color: rgb(30, 98, 122);
+ background-color: rgb(40, 130, 144);
  color: white;
  text-align: center;
 }
@@ -578,13 +579,13 @@ font-size: 20px;
 
   .about-content{
    display: none;
-
+  
    }
    
    .desk-about{
     display:flex;
     flex-direction: column;
-    
+   
    }
   
    .desk-about1{
@@ -595,6 +596,16 @@ font-size: 20px;
     padding: 80px;
     margin-top: 15px;
   }
+
+  .desk-about1 h2{
+    font-size: 30px;
+    color: black;
+  }
+
+  .desk-about1 p{
+    padding: 10px;
+    font-size: 20px;
+  }
   
   .desk-about2{
     display:flex;
@@ -604,18 +615,19 @@ font-size: 20px;
 
   .desk-about1 a{
     text-decoration: none;
-    background-color: rgb(56, 163, 202);
+    background-color: rgb(41, 110, 135);
     color: white;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 30px;
+    font-size: 16px;
   }
 
   .boxes1{
    display:grid;
   grid-template-columns: auto auto;
   grid-gap:2%;
-
+  background: rgb(58, 124, 150);
 
   }
   .about-box3, .about-box4{
@@ -646,7 +658,8 @@ font-size: 20px;
     }
     
     .steps{
-     margin-top:20px ;
+     margin-top:20px;
+
     }
     .step1 h1{
       font-size: 35px;
@@ -673,56 +686,148 @@ font-size: 20px;
     
     
     /* == SERVICE == */ 
-     .wrapper-width h1{
+     
+    .wrapper-width h1{
       font-size: 33px;
       
      }
+
     .service1{
       font-size: 16px;
+      margin-top: 20px;
     }
    
     .service{
-      background-color:rgb(201, 227, 237) ; 
+      background-color:rgb(229, 232, 231);
+      height:600px;
+      
     }
-    .desk-service{
-       
-        display:grid;
+     .desk-service{
+       display:grid;
        grid-template-columns: auto auto;
        grid-gap:2%;
-     
-     
-       
-    }
+      
+     }
 
      /* ==CALL-TO-ACTION== */ 
-    .call-img img{
-     display: none;
-     
-    }
     
-    .call-content {
-      display: none;
-    }
+   .call-img img{
+   display: none;
+   }
+   
+   .call-content{
+    display: none;
+   }
+   
+   .call-img1{
+    background-image:url(images/call.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+   }
+  
+   
+   .desk-call{
+  
+    padding:120px;
+    background-color:rgb(42, 81, 165, 0.4) ;
+    
+   }
+   .call-img1 h2{
+    font-size: 50px;
+    
+    font-weight:700;
+   }
+   .desk-call p{
+    font-size: 22px;
+   font-weight: 500;
+   margin-bottom:20px;
+   }
+   
+   .desk-call a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(24, 78, 97);
+    color: aliceblue;
+    border-radius:10px;
+    
+   }
+  
+   .form{  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: rgb(33, 140, 119);
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .form p{
+    color: #fff;
+  }
+  .form label {
+    margin: 10px 10px 5px 0;
+    color: #fff;
+  }
+  
+  .form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: rgba(14, 49, 83, 0.88);
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
 
-    .desk-call{
-      display: flex;
-    }
-
+  
+  .form button:hover {
+    background-color: rgb(38, 115, 163);
+  }
+  
+  
    
       /* == FOOTER == */ 
 
 .footer-content{
-  display:grid;
-  grid-template-columns: auto auto;
-  grid-gap:2%;
+  display:flex;
+  flex-flow: column wrap;
 }
+
 
 .navbars{
- 
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
 }
 
+.footer-nav{
+  display: flex;
+  flex-direction:column ;
+}
+ /* == ABOUT US PAGE== */ 
+
+  /* == SERVICE PAGE == */ 
   }
 
   
+ /* == ABOUT US PAGE== */ 
 
+  
+ #more{display:none;}
 
+ /* == SERVICE PAGE == */ 
+
+  
+ /* == HEADER == */ 
+ 

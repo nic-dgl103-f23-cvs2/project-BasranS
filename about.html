@@ -51,13 +51,181 @@
     var element = document.getElementById("nav-items");
     element.classList.toggle("show-items");
   }
+
+
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+ 
+}
+
 </script>
    
 <main>
-<!-- Header section-->
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d330398.4216498047!2d-124.99701300000001!3d49.687497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881475935e7113%3A0x1607378974d28874!2s392%2010th%20St%2C%20Courtenay%2C%20BC%20V9N%201P5%2C%20Canada!5e0!3m2!1sen!2sus!4v1701394768513!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- Small Hero section-->
+
+<section clas="small-hero">
+
+ <h1> #1 Medical Alert Service in Canada</h1>
+
+ <h2>Welcome to Comox Valley Lifeline Society!</h2>
+ <p>Our mission is to empower our customers and their loved ones to live a life without limits. To us that means providing a full range of services that put safety & security front and center. Our Medical Alert devices are user-friendly, customizable, and fit all lifestyles.</p>
+
+</section>
+
+<!-- History section-->
+
+<section class="history">
+<img src="images/history.jpg" alt="history" width="500">
+  <h2>"A Legacy of Lifeline in Comox Valley"</h2>
+  <p>
+    The Comox Valley Lifeline Society is a non-profit, charitable organization that provides Lifeline services to a variety of individuals who may feel reassured that help is available to them twenty four hours a day, seven days a week.
+    The Society was established in 1988 by the 'Lions of the North Island' because the membership believed that people deserved the dignity to live on their own and have access to immediate help in an emergency situation
+    
+    Since its inception, the Society has evolved alongside advancements in medical alert systems. Initially starting with basic emergency response services,<span id="dots"></span><span id="more">the Lifeline system has continuously adapted and integrated cutting-edge technology to ensure swift and reliable assistance for its members.
+    
+    Over the years, the Comox Valley Lifeline Society has forged partnerships with local healthcare providers, emergency services, and caregivers, fostering a network dedicated to enhancing the safety and well-being of the community's residents.
+    
+    Through unwavering commitment and dedication, the Society has expanded its services to meet the evolving needs of individuals seeking independence and security while residing in the Comox Valley.
+    
+    Today, the Society stands as a testament to its enduring mission, leveraging state-of-the-art medical alert systems to provide peace of mind and immediate assistance at the touch of a button. The legacy of compassion, reliability, and innovation continues to guide the Comox Valley Lifeline Society in its unwavering commitment to safeguarding the lives of its members.
+    
+    Feel free to personalize this content with specific dates, milestones, or any significant events that have shaped the society's journey.</span></p>
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+  
+</section>
+
+<!-- Volunteers section-->
+
+<section class="products">
+  <div class="product">
+  <img src="images/prod.png" alt="product">
+  <img src="images/prod2.png" alt="productt">
+  <h2>Products And Services</h2>
+  <p>We have a device to fit every lifestyle and personal aesthetic. We dedicate endless hours to researching new products, asking for feedback from customers, and learning how to improve our devices and services. It's no surprise that it's a winning combination.</p>
+
+</div>
+</section>
+
+<!-- Volunteers section-->
+
+<h2>Our Team</h2>
+<section class="volunteers">
+
+  <h2>Meet Our Dedicated Team</h2>
+  <div class="team">
+    
+  <img src="images/team.png" alt="team">
+  <h3>Medical Director</h3>
+ <p> As our esteemed Medical Director,Dr. Sarah Johnson brings 12+ of experience in this field. Their expertise ensures that our services are aligned with the latest medical standards, guaranteeing the highest level of care for our members.
+
+ </p>
+  </div>
+  
+  <div class="team">
+  <img src="images/team.png" alt="team">
+  <h3>Customer Care Specialists</h3>
+ <p>Our compassionate Customer Care Specialists, including Marcus Garcia, ,Ethan Wilson and Olivia Bennett, are the friendly voices behind every call. With a focus on empathy and responsiveness, they provide personalized support to our members 24/7.</p>
+  </div>
+ 
+  <div class="team">
+ <img src="images/team.png" alt="team">
+  <h3>Technical Support Team</h3>
+  <p>The Technical Support Team, comprising Stephanie Brown, Daniel Jackson and Ashley Evans,  ensures the smooth functioning of our cutting-edge medical alert systems. Their expertise guarantees that our technology remains reliable and accessible to all members.</p>
+  </div>
+</section>
+
+<!-- Donations section-->
+<section class="donations">
+
+ <h2> Support Our Mission</h2>
+ <p>The Comox Valley Lifeline Society is a registered charitable organization.  Our services are funded by our install fees, monthly monitoring fees and generous donations made by individuals and service clubs who support our program.  If you are interested in helping us meet our goal in providing Lifeline service to everyone who needs it, please consider making a donation of your own.  For more information, please call the office phone number listed in your area.</p>
+
+<h3> Why Donate?</h3>
+<ul>
+<li>Impact Lives: Your contribution directly impacts the lives of community members by providing access to our medical alert systems and emergency response services.</li>
+
+<li>Ensure Safety: Your support enables us to ensure that individuals, particularly seniors and those with health challenges, have access to immediate help at the press of a button, promoting independence and peace of mind.</li>
+
+<li>Sustain Innovation: Donations drive innovation in our systems, allowing us to stay at the forefront of technology and provide the most reliable and effective services</li>
+</ul>
+
+<h3>Ways to Donate</h3>
+
+<li>Online: Visit our secure donation portal on our website to make a one-time or recurring donation. Every contribution, no matter the size, makes a significant difference.</li>
+
+<li>Phone: Call our office at [phone number] to learn more about donation options and how your support can impact our community.</li>
+
+<li>Mail: You can also send your donation via mail to [mailing address]. Please make checks payable to "Comox Valley Lifeline Society."</li>
+
+<h4>Your contribution matters. Together, we can continue to make a difference in the lives of our community members. Thank you for your generosity and support. <i class= "fa fa-heart"></i></h4>
+</section>
+
+
 </main>
+
+
+
+
+   <!-- Call-to-action section-->
+
+   <section class="call-to-action">
+    
+    <div class="call-img">
+<img src="images/call.jpg" alt="call">
+    </div>
+    
+    <!-- Desktop section-->
+
+    <div class="call-img1">
+      <div class="desk-call">
+      <h2>Get Connected</h2>
+<p>Experience the peace of mind with our Lifeline by taking the first step towards safety and independence.</p>
+<a href="#">Join Us</a>
+    </div>
+  </div>
+    <div class="call-content">
+<h2>Get Connected</h2>
+<p>Experience the peace of mind with our Lifeline by taking the first step towards safety and independence.</p>
+<a href="#">Join Us</a>
+    </div>
+ 
+   
+   
+<div class="form">
+   
+  <h1>Request Your FREE BROCHURE Today!</h1>
+ <p> No commitments, No hard selling - Just with one click, you can have 24-hour protection.</p>
+ 
+   <form>
+     <label for="fname">Your First Name</label><br>
+     <input type="text" id="fname" name="fname"><br>
+     <label for="lname">Your Last Name</label><br>
+     <input type="text" id="lname" name="lname"><br/>
+     <label for="phone">Phone Number</label><br>
+     <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br/>
+     <label for="email">Email Address</label><br>
+     <input type="text" id="email" name="email"><br>
+    <button class="button">Submit Form</button>
+    <p>We will contact you at the number or with the email provided.</p>
+   </form>
+ 
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d330398.4216498047!2d-124.99701300000001!3d49.687497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881475935e7113%3A0x1607378974d28874!2s392%2010th%20St%2C%20Courtenay%2C%20BC%20V9N%201P5%2C%20Canada!5e0!3m2!1sen!2sus!4v1701394768513!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
 
  <!-- Footer section-->
 
