@@ -921,15 +921,18 @@ background-color: rgb(147, 183, 196);
 }
 
 .footer-content2{
-  display: ;
+
 }
 
 }
 
 /* == ABOUT US PAGE== */ 
 
-#more{display:none;}
- 
+
+
+
+/* == SMALL HERO SECTION == */ 
+
 .small-hero h1 {
   font-size: 28px;
   text-align: center;
@@ -958,12 +961,43 @@ background-color: rgb(147, 183, 196);
   background-color: rgba(255, 0, 0, 0.041);
 }
 
+/*== HISTORY SECTION == */
 
+#more{display:none;}
 
+.history{
+  text-align: left;
+  margin-left: 10px;
+}
 
+.history h2{
+  font-size: 20px;
+  
+}
+#myBtn{
+  color: white;
+  background-color: rgb(11, 73, 96);
+  padding: 10px;
+  border-radius: 5px;
+}
 
+/*== HISTORY SECTION == */
 
+.products{
+  text-align: center;
+  margin-top: 20px;
+}
 
+.product-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.product-img img{
+  width:160px;
+  
+}
 
 
 
