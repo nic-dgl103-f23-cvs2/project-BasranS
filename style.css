@@ -97,7 +97,7 @@ html {
     text-align: left;
   }
 
-  .hero-content p{
+  .hero-contentp{
     color: black;
     font-size: 15px;
     font-weight: 400;
@@ -107,7 +107,12 @@ html {
   .hero-content a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
     }
+
+  .call:hover{
+    background-color: rgb(31, 93, 117);
+    } 
 
  .image img{
     width: 350px;
@@ -153,9 +158,12 @@ html {
   font-size: 15px;
   color: white;
   border-radius: 2px;
+  cursor: pointer;
  }
 
- 
+ .about-content1 a:hover{
+background-color: rgb(103, 186, 219);
+ }
 .about-box1{
 background-color: rgb(237, 238, 238);
   text-align: center;
@@ -305,7 +313,11 @@ background-color: rgb(237, 238, 238);
   font-size: 15px;
   color: white;
   border-radius: 20px;
+  cursor: pointer;
+}
 
+.image1 a:hover{
+background-color: black;
 }
 
 .image1 img, .image2 img{
@@ -319,6 +331,10 @@ background-color: rgb(237, 238, 238);
   color: white;
   border-radius: 20px;
 }
+.image2 a:hover{
+  background-color: black;
+}
+
 .image1 h2{
 color:rgb(11, 73, 96);
 font-size: 18px;
@@ -351,6 +367,7 @@ font-size: 18px;
 
 .call-img img{
   width:370px;
+  
 }
 .call-to-action{
    position: relative; 
@@ -378,37 +395,52 @@ font-size: 18px;
   color: rgb(27, 25, 25);
   border-radius: 10px;
   font-weight: 500;
+  cursor: pointer;
+
+}
+
+.call-content a:hover{
+  background-color: rgb(102, 201, 190,0.5);
 }
 
 .form p{
   font-size: 17px;
-  color: black;
+  color: white;
   font-weight: 700;
   }
 
-  .form label{
-    color:black;
+  .form1 label{
+    color:white;
     font-size: 15px;
     font-weight:570;
+    padding: 20px;
+
   }
 
 .form{
-  background-color: white;
+  margin-top: 10px;
+  background-color: rgb(37, 127, 95);;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   padding: 20px;
+  margin-bottom: 10px;
   
 }
 
-.form button{
-background-color: rgb(37, 127, 95);
-padding: 10px;
-margin-top: 25px;
-font-size: 18px;
+.button button{
+background-color: rgb(34, 34, 136);
+padding: 5px;
+margin-top: 20px;
+font-size: 17px;
 border-radius: 7px;
 color: white;
 filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
+cursor: pointer;
+}
+
+.button button:hover{
+  background-color: rgba(0, 0, 255, 0.336,0.4);
 }
 
 .call-img1{
@@ -433,14 +465,21 @@ text-align: center;
 padding: 30px;
 
 }
+
 .footer-content h2{
   font-size: 26px;
   font-weight: bold;
 }
+
 .footer-content a{
 color: white;
 text-decoration: none;
 font-size: 20px;
+
+}
+
+.anchor a:hover{
+background-color: rgb(147, 183, 196);
 }
 
 .anchor a{
@@ -450,8 +489,8 @@ font-size: 20px;
   border-radius: 17px;
   font-size: 16px;
   font-weight: 500;
-  
-
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbars{
@@ -522,6 +561,7 @@ font-size: 20px;
     .toggle{
       display: none;
     }
+
      /* == HERO == */ 
     
      .hero{
@@ -567,13 +607,19 @@ font-size: 20px;
     color: white;
     padding: 15px;
     border-radius: 5px;
- 
+    cursor: pointer;
     }
+
+    .desk-content a:hover{
+     background-color: rgb(11, 73, 96);
+    }
+
    .desk-content h2{
     color: rgb(26, 94, 26);
     font-weight: 800;
     font-size: 32px;
    }
+
    
    /* == ABOUT US == */ 
 
@@ -604,7 +650,7 @@ font-size: 20px;
 
   .desk-about1 p{
     padding: 10px;
-    font-size: 20px;
+    font-size: 23px;
   }
   
   .desk-about2{
@@ -621,6 +667,11 @@ font-size: 20px;
     border-radius: 5px;
     margin-bottom: 30px;
     font-size: 16px;
+    cursor:pointer;
+  }
+
+  .desk-about1 a:hover{
+  background-color: rgb(52, 152, 188);
   }
 
   .boxes1{
@@ -657,12 +708,13 @@ font-size: 20px;
       font-weight: 900;
     }
     
+    
     .steps{
      margin-top:20px;
 
     }
     .step1 h1{
-      font-size: 35px;
+      font-size: 38px;
     }
     .step1 img, .step2 img, .step3 img{
       width: 400px;
@@ -672,12 +724,12 @@ font-size: 20px;
      font-size: 25px;
     }
     .step1 p, .step2 p, .step3 p{
-      font-size: 17px;
+      font-size: 18px;
       padding: 10px;
     }
 
     .tickmark{
-      font-size:17px;
+      font-size:19px;
     }
      
     .video{
@@ -693,7 +745,7 @@ font-size: 20px;
      }
 
     .service1{
-      font-size: 16px;
+      font-size: 18px;
       margin-top: 20px;
     }
    
@@ -707,6 +759,18 @@ font-size: 20px;
        grid-template-columns: auto auto;
        grid-gap:2%;
       
+     }
+     
+     .desk-service h2{
+     font-size: 20px;
+     }
+
+     .image2 h2{
+      font-size: 20px;
+     }
+
+     .image2 p, .desk-service p{
+      font-size: 17px;
      }
 
      /* ==CALL-TO-ACTION== */ 
@@ -731,21 +795,20 @@ font-size: 20px;
   
    
    .desk-call{
-  
-    padding:120px;
+    padding:109px;
     background-color:rgb(42, 81, 165, 0.4) ;
     
    }
    .call-img1 h2{
-    font-size: 50px;
-    
+    font-size: 45px;
     font-weight:700;
    }
    .desk-call p{
     font-size: 22px;
    font-weight: 500;
    margin-bottom:20px;
-   }
+   
+  }
    
    .desk-call a{
     text-decoration: none;
@@ -756,25 +819,40 @@ font-size: 20px;
     border-radius:10px;
     
    }
+
+   .desk-call a:hover{
+    background-color: rgba(40, 124, 95, 0.428);
+   }
   
    .form{  
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column ;
     align-items: center;
     background-color: rgb(33, 140, 119);
     margin-top: 10px;
     color: #fff;
   }
+  .content{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .form1{
+    display: flex;
+    flex-direction: row;
+  }
   
-  .form p{
+  .content p{
+    color: #fff;
+    font-size: 18px;
+  }
+  .form1 label {
+    margin-top: 12px;
+    padding: 5px;
     color: #fff;
   }
-  .form label {
-    margin: 10px 10px 5px 0;
-    color: #fff;
-  }
   
-  .form input {
+  .form1 input {
     vertical-align: middle;
     margin: 5px 10px 5px 0;
     padding: 10px;
@@ -782,52 +860,125 @@ font-size: 20px;
     border: 1px solid #ddd;
   }
   
-  .form button {
-    padding: 10px 20px;
+  .button button{
+    padding: 13px;
     background-color: rgba(14, 49, 83, 0.88);
     border: 1px solid #ddd;
     color: white;
     cursor: pointer;
+    margin-top: 20px;
+    border-radius:10px;
+    font-size: 18px;
   }
 
   
-  .form button:hover {
-    background-color: rgb(38, 115, 163);
+  .button button:hover {
+    background-color: rgb(33, 112, 161);
   }
   
   
    
-      /* == FOOTER == */ 
+ /* == FOOTER == */ 
 
-.footer-content{
-  display:flex;
-  flex-flow: column wrap;
+ .footer1{
+  display: flex;
+  flex-direction: row;
+ }
+ .anchor a{
+  padding: 20px;
+  
+ }
+
+ .footer-content h2{
+ font-size: 28px;
+ }
+
+ .footer-content a{
+  font-size: 20px;
+ }
+
+ .footer-content p{
+ font-size: 17px;
+ margin-top: 0;
+ }
+
+ .footer-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 
 .navbars{
- display: flex;
- flex-direction: row;
- align-items: flex-end;
+  display:flex;
+  flex-direction: column;
+  
 }
 
 .footer-nav{
-  display: flex;
-  flex-direction:column ;
+  display: block;
+ 
 }
- /* == ABOUT US PAGE== */ 
 
-  /* == SERVICE PAGE == */ 
-  }
+.footer-content2{
+  display: ;
+}
+
+}
+
+/* == ABOUT US PAGE== */ 
+
+#more{display:none;}
+ 
+.small-hero h1 {
+  font-size: 28px;
+  text-align: center;
+  height: 220px;
+  color: black;
+  
+  
+}
+
+.head{
+ padding-top: 70px;
+}
+.small-hero{
+  background-image:url("images/customer.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-size: contain;
+  height: 80vh;
+ 
+}
+
+.hero1{
+  padding: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: rgba(255, 0, 0, 0.041);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* == SERVICE PAGE == */ 
+ 
+ 
+
+
 
   
- /* == ABOUT US PAGE== */ 
 
-  
- #more{display:none;}
-
- /* == SERVICE PAGE == */ 
-
-  
- /* == HEADER == */ 
  
