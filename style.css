@@ -792,7 +792,7 @@ background-color: rgb(147, 183, 196);
     background-image:url(images/call.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 59vh;
     display:flex;
     flex-direction: column;
     margin-top:30px;
@@ -930,45 +930,138 @@ background-color: rgb(147, 183, 196);
 }
 
 /* ==  DESKTOP ABOUT US PAGE== */ 
-.small-hero{
-  background-image:url("images/customer.jpg");
-  background-repeat: no-repeat;
-  opacity: 0.8;
-  background-size: cover;
-  width: 800px;
-  height: 80vh;
- 
-}
-
-}
-
-/* ==  ABOUT US PAGE== */ 
-
-
-
 
 /* == SMALL HERO SECTION == */ 
 
 .small-hero h1 {
+  background-image: url(images/customer.jpg);
+  background-size: cover;
+  font-size: 28px;
+  text-align: center;
+  height: 80vh;
+  color: black;
+  background-repeat: no-repeat;
+   object-fit: cover;
+}
+
+
+
+
+/* == HISTORY SECTION == */ 
+
+.history{
+  display: flex;
+  flex-direction: row;
+  height:45vh;
+}
+
+.history-img img{
+  height:35vh;
+  width:450px;
+  border-radius: 3px;
+}
+.history-content{
+  padding:25px;
+}
+
+.history-content h2{
+  font-size: 25px;
+}
+
+/* == PRODUCT SECTION == */ 
+
+.product{
+  display: flex;
+  flex-direction: row;
+  height: 35vh;
+}
+
+.product-img img{
+  width:200px;
+}
+
+.product-img{
+ margin-top: 40px;
+}
+
+
+.product-content {
+  margin-top: 40px;
+
+}
+
+
+
+/* == TEAM SECTION == */ 
+
+.team-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.team1{
+padding: 60px;
+}
+
+.team h2{
+  font-size: 25px;
+}
+
+.team-img img{
+width:170px;
+}
+.team-img p{
+  font-size: 17px;
+}
+.team-img {
+display: block;
+
+}
+.team1{
+  padding-bottom: 10px;
+
+}
+
+.team1 p{
+  font-size: 17px;
+}
+
+
+/* == DONATION SECTION == */ 
+
+
+
+
+
+}
+
+
+
+
+
+
+/* ==  ABOUT US PAGE== */ 
+
+/* == SMALL HERO SECTION == */ 
+
+.small-hero h1 {
+  background-image: url(images/customer.jpg);
+  background-size: cover;
   font-size: 28px;
   text-align: center;
   height: 220px;
   color: black;
-  
-  
+  background-repeat: no-repeat;
+   object-fit: cover;
 }
 
 .head{
  padding-top: 70px;
+ font-size: 20px;
 }
-.small-hero{
-  background-image:url("images/customer.jpg");
-  background-repeat: no-repeat;
-  opacity: 0.8;
-  background-size: contain;
-  height: 80vh;
- 
-}
+
 
 .hero1{
   padding: 30px;
@@ -979,7 +1072,7 @@ background-color: rgb(147, 183, 196);
 
 .hero1 h2{
   color: #1b5383;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .hero p{
@@ -1048,6 +1141,8 @@ background-color: rgb(147, 183, 196);
   font-size: 15px;
 }
 
+
+
 /*== TEAM SECTION == */
 
 .team {
@@ -1065,7 +1160,9 @@ background-color: rgb(147, 183, 196);
   padding: 15px;
  
 }
-
+.team-img img{
+  width:150px;
+}
 .team1 img {
   width: 200px;
   
@@ -1074,7 +1171,10 @@ background-color: rgb(147, 183, 196);
   
   color: black;
 }
-
+.team-img h3{
+  color: #2c577c;
+  font-size: 20px;
+}
 .team1 h3 {
   color: #2c577c;
   font-size: 20px;
