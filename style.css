@@ -15,7 +15,7 @@ html {
   a {
     font-family: 'Roboto', sans-serif;
   }
-  h1{
+  h1, h2{
     font-family: 'Roboto', sans-serif;
   }
   
@@ -537,10 +537,15 @@ background-color: rgb(147, 183, 196);
 
 @media only screen and (min-width: 1200px) {
   
+  /* == DESKTOP HOME PAGE== */ 
+
   .wrapper-width {
     width: 1170px;
     margin: auto;
   }
+
+
+
   /* == HEADER == */ 
 
    nav ul {
@@ -924,9 +929,20 @@ background-color: rgb(147, 183, 196);
 
 }
 
+/* ==  DESKTOP ABOUT US PAGE== */ 
+.small-hero{
+  background-image:url("images/customer.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-size: cover;
+  width: 800px;
+  height: 80vh;
+ 
 }
 
-/* == ABOUT US PAGE== */ 
+}
+
+/* ==  ABOUT US PAGE== */ 
 
 
 
@@ -961,6 +977,16 @@ background-color: rgb(147, 183, 196);
   background-color: rgba(255, 0, 0, 0.041);
 }
 
+.hero1 h2{
+  color: #1b5383;
+  font-size: 22px;
+}
+
+.hero p{
+  color: black;
+  font-size: 16px;
+}
+
 /*== HISTORY SECTION == */
 
 #more{display:none;}
@@ -972,6 +998,7 @@ background-color: rgb(147, 183, 196);
 
 .history h2{
   font-size: 20px;
+  color: #1b5383;;
   
 }
 #myBtn{
@@ -979,13 +1006,24 @@ background-color: rgb(147, 183, 196);
   background-color: rgb(11, 73, 96);
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+#myBtn:hover{
+  background-color: rgba(89, 127, 140, 0.702)
+}
+.history p{
+  font-size: 16px;
 }
 
 /*== HISTORY SECTION == */
 
 .products{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
+  border:1px solid #d8c9d8;
+  background-color: rgb(68, 140, 168);
+  color: white;
 }
 
 .product-img {
@@ -995,17 +1033,92 @@ background-color: rgb(147, 183, 196);
 }
 
 .product-img img{
-  width:160px;
+  width:170px;
+  height: 150px;
+  padding-top: 10px;
   
+}
+.products h2{
+  font-size: 25px;
+  color:black;
+  font-weight: 700;
+  color: white;
+}
+.products p{
+  font-size: 15px;
+}
+
+/*== TEAM SECTION == */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+}
+
+.team h2 {
+  color: #1b5383;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+ 
+}
+
+.team1 img {
+  width: 200px;
+  
+}
+.team1 p {
+  
+  color: black;
+}
+
+.team1 h3 {
+  color: #2c577c;
+  font-size: 20px;
+}
+
+/*== DONATION SECTION == */
+
+.donations{
+text-align: center;
+padding: 10px;
+color: rgb(222, 207, 207);
+
 }
 
 
+.donate1 li, .donate2 li{
+list-style: none;
+margin: 15px;
+padding-right: 30px;
+text-align: center;
+color: rgb(122, 41, 41);
+font-size: 17px;
+}
 
+.donation-content h2{
+font-size: 25px;
+color: #2c577c;
+}
+.donation-content p{
+  font-size: 16px;
+  padding: 15px;
+  color: black;
+}
 
+.donate1 h3, .donate2 h3{
+  font-size: 22px;
+  color: black;
+} 
 
-
-
-
+.donations h4{
+  font-size: 18px;
+  color: #1b5383;
+  
+}
 
 /* == SERVICE PAGE == */ 
  
