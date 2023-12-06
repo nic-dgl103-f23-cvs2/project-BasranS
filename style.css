@@ -165,6 +165,7 @@ html {
  .about-content1 a:hover{
 background-color: rgb(103, 186, 219);
  }
+
 .about-box1{
 background-color: rgb(237, 238, 238);
   text-align: center;
@@ -420,7 +421,7 @@ font-size: 18px;
 
 .form{
   margin-top: 10px;
-  background-color: rgb(37, 127, 95);;
+  background-color: rgb(37, 127, 95);
   display: flex;
   flex-direction: column;
   color: white;
@@ -436,7 +437,7 @@ margin-top: 20px;
 font-size: 17px;
 border-radius: 7px;
 color: white;
-filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
 cursor: pointer;
 }
 
@@ -552,7 +553,252 @@ background-color: rgb(147, 183, 196);
   padding: 15px;
 }
 
+/* ==  ABOUT US PAGE== */ 
 
+/* == SMALL HERO SECTION == */ 
+
+
+.hero1-content{
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  background-color: rgb(247, 237, 237);
+}
+
+.hero1{
+  font-size: 15px;
+}
+
+.hero1 h1{
+  color: #1b5383;
+  font-size: 21px;
+}
+
+.hero p{
+  color: black;
+  font-size: 16px;
+}
+
+/*== HISTORY SECTION == */
+
+#more{display:none;}
+
+.history{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.history h2{
+  font-size: 20px;
+  color: #1b5383;
+  
+}
+#myBtn{
+  color: white;
+  background-color: rgb(11, 73, 96);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myBtn:hover{
+  background-color: rgba(89, 127, 140, 0.702);
+}
+.history p{
+  font-size: 16px;
+}
+
+/*== HISTORY SECTION == */
+
+.products{
+  text-align: center;
+  margin-top: 35px;
+  border:1px solid #d8c9d8;
+  background-color: rgb(68, 140, 168);
+  color: white;
+}
+
+.product-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.product{
+  margin-top: 20px;
+}
+
+.product-img img{
+  width:170px;
+  height: 150px;
+  padding-top: 10px;
+  
+}
+.products h2{
+  font-size: 25px;
+  color:black;
+  font-weight: 700;
+  color: white;
+}
+.products p{
+  font-size: 15px;
+}
+
+
+
+/*== TEAM SECTION == */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  margin-top: 20px;
+}
+
+.team h2 {
+  color: #1b5383;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+ 
+}
+.team-img img{
+  width:150px;
+}
+.team1 img {
+  width: 200px;
+  
+}
+.team1 p {
+  
+  color: black;
+}
+.team-img h3{
+  color: #2c577c;
+  font-size: 20px;
+}
+.team1 h3 {
+  color: #2c577c;
+  font-size: 20px;
+}
+
+/*== DONATION SECTION == */
+
+.donations{
+text-align: center;
+padding: 10px;
+color: rgb(222, 207, 207);
+
+}
+
+
+.donate1 li, .donate2 li{
+list-style: none;
+margin: 15px;
+padding-right: 30px;
+text-align: center;
+color: rgb(122, 41, 41);
+font-size: 17px;
+}
+
+.donation-content h2{
+font-size: 25px;
+color: #2c577c;
+}
+.donation-content p{
+  font-size: 16px;
+  padding: 15px;
+  color: black;
+}
+
+.donate1 h3, .donate2 h3{
+  font-size: 22px;
+  color: black;
+} 
+
+.donations h4{
+  font-size: 18px;
+  color: #1b5383;
+  
+}
+
+/* == SERVICE PAGE == */ 
+ 
+/* == SERVICE-OFFERED SECTION == */ 
+
+ .service-offered{
+  text-align: left;
+  background-color: rgb(243, 249, 251);
+  margin: 0;
+  padding: 5px;
+ }
+
+ .service-offered h1{
+  font-size: 26px;
+  color: rgb(17, 90, 117);
+ }
+
+.service-offered h2{
+  font-size: 23px;
+  color: rgb(18, 85, 110);
+}
+.service-offered p{
+  font-size: 16px;
+}  
+
+ .service-offered h3{
+  font-size:19px;
+  color: rgb(18, 85, 110);
+ }
+
+ .service-offered p{
+  font-size:16px;
+  color: black;
+  font-weight: 500;
+ }
+
+ .service1{
+  margin-top: 20px;
+ 
+ }
+
+ .service-offered a{
+ text-decoration: none;
+ font-size: 17px;
+ padding: 10px;
+ background-color: #2c577c;
+ border-radius: 3px;
+ color: white;
+
+ }
+
+.service-offered2{
+  display: none;
+}
+
+.service-offered li{
+  list-style: none;
+  padding: 5px;
+}
+
+.call-to-action{
+  margin-top: 20px;
+}
+
+
+.map{
+  margin-top: 30px;
+  width:320px;
+}
+
+.order{
+  display: none;
+}
 
 @media only screen and (min-width: 1200px) {
   
@@ -825,7 +1071,7 @@ background-color: rgb(147, 183, 196);
    
    .desk-call{
     padding:109px;
-    background-color:rgb(42, 81, 165, 0.4) ;
+    background-color:rgb(42, 81, 165, 0.4);
     
    }
    .call-img1 h2{
@@ -1005,8 +1251,8 @@ font-size: 18px;
   display: flex;
   flex-direction: row;
   height: 38vh;
-justify-content: space-around;
-margin: 0;
+ justify-content: space-around;
+ margin: 0;
 }
 
 .product-img img{
@@ -1078,197 +1324,88 @@ display: block;
 
 .map{
   margin-top: 80px;
+  width:400px;
 }
 
 
 
+/* ==  SERVICE PAGE== */ 
+
+/* == SERVICES OFFERED SECTION== */ 
+
+.mobile-work{
+  display: none;
 }
 
-
-
-
-
-
-/* ==  ABOUT US PAGE== */ 
-
-/* == SMALL HERO SECTION == */ 
-
-
-.hero1-content{
+.service-offered{
+  text-align: center;
   padding: 20px;
-  font-size: 17px;
-  font-weight: 400;
-  text-align: center;
-  color: black;
-  background-color: rgb(247, 237, 237);
+}
+.service2 h1{
+  font-size: 34px;
+  
+}
+.service2{
+  background-color: rgb(198, 228, 240);
+  padding: 40px;
 }
 
-.hero1{
-  font-size: 15px;
+.service2 p{
+font-size: 18px;
 }
 
-.hero1 h1{
-  color: #1b5383;
-  font-size: 21px;
+
+.service-offered1 {
+font-size: 30px;
+display: flex;
+flex-direction: row;
+}
+.service-offered1 h3 {
+color: rgb(11, 73, 96);
+font-size: 26px;
 }
 
-.hero p{
-  color: black;
-  font-size: 16px;
+.service-offered2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin-bottom: 45px;
+padding: 25px;
+
 }
 
-/*== HISTORY SECTION == */
 
-#more{display:none;}
+.service-offered ul li{
+text-align: left;
 
-.history{
+}
+.service-offered2 th{
+font-size: 20px;
+}
+
+.service-offered2 table, th, td {
+  border: 1px solid rgb(129, 156, 187);
+ border-collapse:collapse;
+ padding: 15px;
+}
+
+.service-offered2 ul {
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+  }
+ 
+.service-offered h2{
+  font-size: 29px;
+  margin-top: 40px;
+}
+
+.service-offered h3{
   text-align: left;
-  margin-top: 20px;
-  margin-left: 10px;
+  font-size: 29px;
 }
 
-.history h2{
-  font-size: 20px;
-  color: #1b5383;;
-  
-}
-#myBtn{
-  color: white;
-  background-color: rgb(11, 73, 96);
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#myBtn:hover{
-  background-color: rgba(89, 127, 140, 0.702)
-}
-.history p{
-  font-size: 16px;
-}
-
-/*== HISTORY SECTION == */
-
-.products{
-  text-align: center;
-  margin-top: 35px;
-  border:1px solid #d8c9d8;
-  background-color: rgb(68, 140, 168);
-  color: white;
-}
-
-.product-img {
+.order{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
-
-.product{
-  margin-top: 20px;
-}
-
-.product-img img{
-  width:170px;
-  height: 150px;
-  padding-top: 10px;
-  
-}
-.products h2{
-  font-size: 25px;
-  color:black;
-  font-weight: 700;
-  color: white;
-}
-.products p{
-  font-size: 15px;
-}
-
-
-
-/*== TEAM SECTION == */
-
-.team {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: rgb(248, 248, 248);
-  margin-top: 20px;
-}
-
-.team h2 {
-  color: #1b5383;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 15px;
- 
-}
-.team-img img{
-  width:150px;
-}
-.team1 img {
-  width: 200px;
-  
-}
-.team1 p {
-  
-  color: black;
-}
-.team-img h3{
-  color: #2c577c;
-  font-size: 20px;
-}
-.team1 h3 {
-  color: #2c577c;
-  font-size: 20px;
-}
-
-/*== DONATION SECTION == */
-
-.donations{
-text-align: center;
-padding: 10px;
-color: rgb(222, 207, 207);
-
-}
-
-
-.donate1 li, .donate2 li{
-list-style: none;
-margin: 15px;
-padding-right: 30px;
-text-align: center;
-color: rgb(122, 41, 41);
-font-size: 17px;
-}
-
-.donation-content h2{
-font-size: 25px;
-color: #2c577c;
-}
-.donation-content p{
-  font-size: 16px;
-  padding: 15px;
-  color: black;
-}
-
-.donate1 h3, .donate2 h3{
-  font-size: 22px;
-  color: black;
-} 
-
-.donations h4{
-  font-size: 18px;
-  color: #1b5383;
-  
-}
-
-/* == SERVICE PAGE == */ 
- 
- 
-
-
-
-  
-
- 
