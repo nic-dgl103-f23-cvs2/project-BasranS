@@ -15,49 +15,49 @@
   
 <body>
 
+
+    
 <!-- Header section-->
     
 <header>
-<div class="wrapper-width">
- <a href="#" class="logo">
-      <img src="images/logo.png" alt="logo">
-    </a>
-     <nav>
+  <div class="wrapper-width">
+   <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <div class="nav-items1">
+      <nav>
+       <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <ul id="nav-items">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="about.html">ABOUT US</a>
+          </li>
+          <li> 
+            <a href="service.html">SERVICE</a>
+          </li>
+        </ul>
+  
+        <div class="search">
+          <input type="text" placeholder="Search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </nav>
+      </div>
+       
+      </div>
+  </header>
+  
+  <script>
+    function showNav() {
+      var element = document.getElementById("nav-items");
+      element.classList.toggle("show-items");
+    }
+  </script>
      
-      <div class="search">
-        <input type="text" placeholder="Search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-          </div>
-<a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
-      <ul id="nav-items">
-        <li>
-          <a href="index.html">HOME</a>
-        </li>
-        <li>
-          <a href="about.html">ABOUT US</a>
-        </li>
-        <li> 
-          <a href="service.html">SERVICE</a>
-        </li>
-      </ul>
-      
-     </nav>
-   
-    </div>
-</header>
-
-<script>
-  function showNav() {
-    var element = document.getElementById("nav-items");
-    element.classList.toggle("show-items");
-  }
-</script>
-
-
-
-
-
-<main>
+  <main>
+    
     <!-- Service Offered section-->
     <section class="service-offered">
         <h1>Services Offered</h1>
@@ -97,7 +97,7 @@
          </tr>
         <tr>
          
-          <td><img src="images/watch.jpg" alt-="watch" width="200"></td>
+          <td><img src="images/watch.jpg" alt="watch" width="200"></td>
           <td><img src="images/alert.jpg" alt="alert" width="200"></td>
            <td><img src="images/coming.jpg" alt="coming" width="200"></td>
         </tr>
@@ -188,68 +188,75 @@
     
        <!-- Footer section-->
 
-       <footer >
+   <footer >
        
-        <div class="footer">
-          <div class="footer1">
-      <div class="footer-content">
-        <h2>"Help is around the corner"</h2>
-    <a href="#">1 (250) 338 4255</a><br/>
-  <a href="#">www.comoxvalleylifeline.com</a><br/><br/>
-   <p>Administration Office Hours:<br/>
-  Monday to Friday, 9:00 AM to 5:00 PM , Closed on Holidays<br/><br/></p>
-     
+    <div class="footer">
+ 
+      <div class="footer-content1">
+       
+        <div class="footer-content">
+    <h2>"Help is around the corner"</h2>
+<a href="#">1 (250) 338 4255</a><br/>
+<a href="#">www.comoxvalleylifeline.com</a><br/><br/>
+<p>Administration Office Hours:<br/>
+Monday to Friday, 9:00 AM to 5:00 PM , Closed on Holidays<br/><br/></p>
 
-  <div class="anchor">
-      <a href="#"> Partner with us</a><br/>
-        </div>
-      </div>
+<a href="#" class="anchor" > Partner with us</a><br/>
     </div>
-     
-    
-      <div class="navbars">
-    <h3 class="footer-nav">Product</h3>
-    <ul>
-    <li class="li">On the Go</li>
-    <li class="li">At-Home Cellular</li>
-    <li class="li">At-Home Landline</li>
-    </ul>
-    <h3 class="footer-nav">About</h3>
-    <ul>
-    <li class="li">Our Organization</li>
-    <li class="li">Our Team</li>
-    <li class="li">Donation</li>
-    </ul>
-    <h3 class="footer-nav"> Quick Links</h3>
-    <ul>
-    <li class="li">About Us</li>
-    <li class="li">Service</li>
-    <li class="li">Contact Us</li>
-    </ul>
   </div>
+ 
+  <div class="navbars1">
 
-  <div class="footer-content1">
-    <div class="footer-content2"
-    <h4><b>Comox Valley LifeLine</b></h4><br/>
-    
-      392 - 10th Street
-      Courtenay, BC V9N 1P5
-      <p> ©2023 ComoxvalleyLifeline | All right reserved</p><br/>
-  </div>
+<div class="navbars">
+<h3 class="footer-nav">Product</h3>
+<ul>
+<li class="li">On the Go</li>
+<li class="li">At-Home Cellular</li>
+<li class="li">At-Home Landline</li>
+</ul>
+</div>
 
-  <div class="icons">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-youtube"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a><br/><br/>
-  </div>  
-      <h3>Disclaimers</h3>
-        <p>This is a fictional website that was designed and coded as an educational exercise.
-           It is not intended to be seen<br/> outside of the class environment.None of the content and images were approved by the business owner</p>
+<div class="navbars">
+<h3 class="footer-nav">About</h3>
+<ul>
+<li class="li">Our Organization</li>
+<li class="li">Our Team</li>
+<li class="li">Donation</li>
+</ul>
+</div>
+
+<div class="navbars">
+<h3 class="footer-nav"> Quick Links</h3>
+<ul>
+<li class="li">About Us</li>
+<li class="li">Service</li>
+<li class="li">Contact Us</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="footer-content2">
+ <div class="footer-content3">
+<h4><b>Comox Valley LifeLine</b></h4><br/>
+  <p>392 - 10th Street
+  Courtenay, BC V9N 1P5</p>
+  <p> ©2023 ComoxvalleyLifeline | All right reserved</p><br/>
+</div>
+
+<div class="icons">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a><br/><br/>
+</div>  
   
-</div>
-</div>
-
+<h3>Disclaimers</h3>
+    <p>This is a fictional website that was designed and coded as an educational exercise.
+       It is not intended to be seen<br/> outside of the class environment.None of the content and images were approved by the business owner</p>
+    </div>
+   
 </footer>
 </body>
 </html> 
